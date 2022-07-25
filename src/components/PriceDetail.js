@@ -1,5 +1,6 @@
 import PercentChangePill from "./PercentChangePill";
 import styles from "./PriceDetail.module.css";
+import PriceVariation from "./PriceVariation";
 
 const PriceDetail = ({
   data: {
@@ -21,6 +22,9 @@ const PriceDetail = ({
           <h3>${Number(openPrice).toFixed(2)}</h3>
           <PercentChangePill percent={priceChangePercent} />
         </span>
+      </div>
+      <div>
+        <PriceVariation low={lowPrice} high={highPrice} price={openPrice}/>
       </div>
       <div className={styles.data}>
         <div className={styles.statistic}>
