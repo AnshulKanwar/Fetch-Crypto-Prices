@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fetch-crypto-prices/static/css/main.c3077e06.css",
+    "main.js": "/fetch-crypto-prices/static/js/main.ebe2a320.js",
+    "index.html": "/fetch-crypto-prices/index.html",
+    "main.c3077e06.css.map": "/fetch-crypto-prices/static/css/main.c3077e06.css.map",
+    "main.ebe2a320.js.map": "/fetch-crypto-prices/static/js/main.ebe2a320.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3077e06.css",
+    "static/js/main.ebe2a320.js"
+  ]
+}
